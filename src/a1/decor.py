@@ -2,6 +2,7 @@ def decor(f):
     def wrapper():
         f()
         print("@@@@@@@@@@@@@@")
+        print("😊😊")
 
     return wrapper
 
